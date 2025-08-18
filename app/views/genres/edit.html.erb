@@ -1,0 +1,8 @@
+<h1>Edit Genre</h1>
+
+<%= form_for(@genre) do |f| %>
+  <label>Genre:</label><br>
+  <%= f.text_field :name, placeholder: "Genre" %><br>
+
+  <%= f.submit %>
+<% end %>
