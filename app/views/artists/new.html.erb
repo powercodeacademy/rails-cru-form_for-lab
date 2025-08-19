@@ -1,0 +1,11 @@
+<%= link_to "New Artist", new_artist_path %>
+
+<%= form_for(@artist) do |f| %>
+  <%= "My Artist" %><br>
+  <%= f.text_field :name %><br>
+<p> "My artist bio" </p>
+  <%= "My artist bio" %><br>
+  <%= f.text_field :bio %><br>
+
+  <%= f.submit "Create Artist" %>
+<% end %>
