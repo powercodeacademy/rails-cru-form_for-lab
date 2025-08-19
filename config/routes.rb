@@ -1,4 +1,4 @@
 Rails.application.routes.draw do
   resources :genres
-  resources :artists, only: %i[index show new create edit update]
+  resources :artists, only: %i[show new create edit update]
 end
